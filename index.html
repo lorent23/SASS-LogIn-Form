@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+ <!--****************************** STYLING ********************************************-->
+  <!--Styling File-->  
+<link rel="stylesheet" href="scss/main.css">
+  <!--Bootstrap CDN-->  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <section id="form-section" class="vh-100">
+            <div class="container-fluid h-custom">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col-lg-6 col-sm-12">
+                <form id="form-main-01">
+                  <!--Logo-->
+                    <img src="./images/logo/logo.png"  class="img-fluid w-25 my-3">
+                    <!--Main Text-->
+                <h2>Welcome Back!</h2>
+                <p class="text-muted">Login to your account using your preferred social network <br> authentication</p>
+                <!--Main Buttons-->
+                <button type="button" class="btn btn-danger col-lg-4 col-sm-12"><i class="fa-brands fa-google">&nbsp;Google</i></button>
+                <button type="button" class="btn btn-primary col-lg-4 col-sm-12"><i class="fa-brands fa-twitter">&nbsp;Twitter</i></button>
+                <p class="text-muted my-3">Or Login with your email address and the password</p>
+                <!--Form-->
+                <label id="email-01" for="exampleInputEmail1" class="form-label">Your email</label>
+                <input type="email"
+                        class="form-control col-lg-8 col-sm-12"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Your email"
+                />
+
+                <label id="password-01"  for="exampleInputPassword1" class="form-label my-3">Your password</label>
+                <input
+                        type="password"
+                        class="form-control col-lg-8 col-sm-12"
+                        id="exampleInputPassword1"
+                        placeholder="Enter your password"
+                        required="required"
+                />
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input m-2" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label m-2 " for="inlineCheckbox1">Remember me</label>
+                  </div>
+                <a href="#" class="link-primary col-lg-6">Forgot password?</a> 
+                <div>
+                  <!--Form Last Button-->
+                <button class="btn btn-primary col-lg-8 col-sm-12">Log in</button>  
+                </div>
+                    <p class="text-muted m-2">Don't have an account? <a href="#" class="link-primary m-2">Sign up</a></p>
+                <div>
+                    <p class="text-muted mt-5">© 2020 All Rights Reserved. Created by<span class="text-weight"> ceosDesigns</span> </p>
+                </div>
+                  </form>
+              </div>
+              <!--Image to the right-->
+              <div class="col-lg-6 col-sm-12 m-0 p-0">
+                <div id="bg-image-01">
+                <img src="images/background/background.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    <!--****************************** SCRIPTS ********************************************-->
+      <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/f1e19b3257.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    <!-- JavaScript Bundle with Popper Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

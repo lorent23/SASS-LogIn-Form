@@ -1,0 +1,36 @@
+#logo {
+  width: 150px;
+}
+
+#form-main-01 {
+  width: 100%;
+  display: block;
+  padding-left: 140px;
+}
+
+#bg-image-01 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  color: black;
+}
+
+label {
+  color: #444444;
+}
+
+button i {
+  padding-right: 4px;
+}
+
+@media only screen and (max-width: 535px) {
+  #form-main-01 {
+    padding-left: 0px;
+  }
+  #bg-image-01 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
