@@ -38,5 +38,9 @@
             return true;
         }
     }
-    
-    
+    //create function of check/uncheck box
+    document.getElementById("exampleModal").addEventListener("reset", RemoveModal);
+
+    function RemoveModal() {
+      document.getElementsById("removemd").value = false;
+    }
